@@ -77,7 +77,7 @@ const pairs = [
 
 
 // Add the bad words to an array
-const badWords = ["fuck", "bitch", "nigger", "dick", "suka", "shit", "bollocks", "suck", "turd", "crap", "brotherfucker", "arsehole", "wanker", "bastard", "spastic"];
+const badWords = ["fuck", "bitch", "nigger", "dick", "suka", "shit", "bollocks", "suck", "turd", "crap", "brotherfucker", "arsehole", "wanker", "bastard", "spastic", "asshole", "rape"];
 
 
 let badWordsCounter = 0;
