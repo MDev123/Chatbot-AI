@@ -102,6 +102,33 @@ const pairs = [
 /what date is it|date/i,
 [new Date().toLocaleDateString()]
 ],
+    [
+/what is the weather like today/i,
+["I'm sorry, I am an AI language model and I don't have access to live weather updates. You can check your local weather services for more information."]
+],
+    [
+/what is your favorite song/i,
+["As an AI language model, I do not have personal preferences or the capability to listen to music."]
+],
+
+[
+/what is the capital of [a-zA-Z]+/i,
+function (input) {
+var city = input.match[0].split(" ").pop();
+var capitals = {
+"Albania": "Tirana",
+"Algeria": "Algiers",
+"Andorra": "Andorra la Vella",
+"Angola": "Luanda",
+"Antigua and Barbuda": "St. John's",
+"Argentina": "Buenos Aires",
+"Ukraine": "Kyiv",
+"US": "Washington D.C."
+};
+return "The capital of " + city + " is " + (capitals[city] || "unknown");
+}
+],
+
   ];
     
 
