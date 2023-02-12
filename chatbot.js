@@ -78,11 +78,22 @@ const pairs = [
 ["The link is <a href='https://discord.gg/GGJ7F3ZUVH'>here</a>"]
 ],
 [
-/what is an nft/i,
+/what is an nft|nft/i,
 ["An NFT, or non-fungible token, is a unique digital asset that represents ownership of a specific item or piece of content, such as a piece of art, music, or video. NFTs are stored on a blockchain and can be bought, sold, and traded just like other cryptocurrencies."]
 ],
-
-    ];
+  [
+  /what is roblox\?|roblox/i,
+  ["Roblox is a massively multiplayer online game platform that allows users to create their own games or play games created by other users. It's especially popular with younger audiences and is considered to be one of the most successful gaming companies in the world."]
+],
+ [
+  /who is yt_nooob|yt_nooob/i,
+  ["YT_nooob is a well-known YouTuber who specializes in creating content related to the online game Roblox. His channel, which has been active for several years, has amassed a large following of dedicated fans who enjoy his in-depth tutorials and guides on how to create and optimize games within the platforOne of the hallmarks of YT_nooob's content is his ability to take complex concepts and break them down into easy-to-understand, step-by-step instructions. He is particularly skilled at explaining the inner workings of the Roblox game engine, and how to use it to create visually appealing and engaging games. His tutorials cover a wide range of topics, from basic game development to more advanced programming concepts, making his channel a valuable resource for players of all skill levels. In addition to his technical expertise, YT_nooob is also known for his friendly and approachable style. He encourages his viewers to experiment and try things out for themselves, and he is always willing to help when someone is stuck. As a result, his channel has become a vibrant community of players who share tips and tricks, and help each other out with their projects. Overall, YT_nooob is an influential figure in the Roblox community, and his channel is a valuable resource for anyone who wants to learn how to create and optimize games within the platform. His easy-to-understand tutorials and helpful approach make him a popular choice for players of all skill levels."]
+],
+  [
+  /who is kno\?|who created u|who created you/i,
+  ["I have been created by kno, a Roblox developer with more than 52k+ total Roblox game visits. This reply was also written by him! <3 Enjoy your day!"]
+],
+  ];
     
 
 
