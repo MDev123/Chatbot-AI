@@ -77,9 +77,9 @@ const pairs = [
 /discord|discord server|what is ur discord server|what is the discord server/i,
 ["The link is <a href='https://discord.gg/GGJ7F3ZUVH'>here</a>"]
 ],
-    [
-  /what is an nft/i,
-  ["An NFT (Non-Fungible Token) is a unique digital asset that represents ownership or proof of authenticity of a specific item or piece of content, such as an image, video, or audio file, on a blockchain network."]
+[
+/what is an nft/i,
+["An NFT, or non-fungible token, is a unique digital asset that represents ownership of a specific item or piece of content, such as a piece of art, music, or video. NFTs are stored on a blockchain and can be bought, sold, and traded just like other cryptocurrencies."]
 ],
 
     ];
