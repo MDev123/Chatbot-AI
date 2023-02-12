@@ -93,6 +93,15 @@ const pairs = [
   /who is kno\?|who created u|who created you|kno|knopka_01/i,
   ["I have been created by kno, a Roblox developer with more than 52k+ total Roblox game visits. This reply was also written by him! <3 Enjoy your day!"]
 ],
+    [
+/what time is it|time/i,
+[new Date().toLocaleTimeString()]
+],
+
+[
+/what date is it|date/i,
+[new Date().toLocaleDateString()]
+],
   ];
     
 
