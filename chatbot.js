@@ -68,10 +68,11 @@ const pairs = [
     /what is the faq page?/i,
     ["Click here to go to the FAQ page. <a href='/faq.html'>FAQ Page</a>"]
     ],
-    [
+[
     /code me something random/i,
-   ["Sure! Here is a JS code that you may copy and paste: ``` // Returns a random integer from 0 to 99: Math.floor(Math.random() * 100); // This code will generate a random number between 0 and 99. ``` "]
-        ],
+    ["Sure! Here is a JS code that you may copy and paste: ``` // Returns a random integer from 0 to 99: Math.floor(Math.random() * 100); // This code will generate a random number between 0 and 99. ```"]
+],
+
   [
 /discord|discord server|what is ur discord server|what is the discord server/i,
 ["The link is <a href='https://discord.gg/GGJ7F3ZUVH'>here</a>"]
