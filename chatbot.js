@@ -108,7 +108,11 @@ const pairs = [
 ],
     [
 /what is your favorite song/i,
-["As an AI language model, I do not have personal preferences or the capability to listen to music."]
+["As an AI language model, I do not have personal preferences or the capability to listen to music. But I do know some good ones..."]
+],
+    [
+/what are some good songs|good songs|songs/i,
+["Check out <a href='https://monstercat.com'>Monstercat,</a> they have copyright-free music that can be used anywhere!"]
 ],
 
 [
@@ -134,7 +138,7 @@ return "The capital of " + city + " is " + (capitals[city] || "unknown");
 
 
 // Add the bad words to an array
-const badWords = ["fuck", "bitch", "nigger", "dick", "suka", "shit", "bollocks", "suck", "turd", "crap", "brotherfucker", "arsehole", "wanker", "bastard", "spastic", "asshole", "rape"];
+const badWords = ["fuck", "bitch", "nigger", "dick", "suka", "shit", "bollocks", "suck", "turd", "crap", "brotherfucker", "arsehole", "wanker", "bastard", "spastic", "asshole", "rape", "porn"];
 
 
 let badWordsCounter = 0;
